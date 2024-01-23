@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+th {
+  width: 120px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+td {
+  padding: 5px;
+}
+
+
+.time {
+  height: 40px;
+}
+
+.Event {
+  width: 250px;
+}
+.event h5{
+  line-height: 0px;
+  align-content: center;
+}
+
+.Red, .red {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.Orange, .orange {
+  background-color: rgba(255, 128, 0, 0.4);
+}
+
+.Yellow, .yellow {
+  background-color: rgba(255, 255, 0, 0.4);
+}
+
+.Green, .green {
+  background-color: rgba(0, 255, 0, 0.4);
+}
+
+.Blue, .blue {
+  background-color: rgba(0, 255, 255, 0.4);
+}
+
+.Purple, .purple {
+  background-color: rgba(128, 0, 255, 0.4);
+}
+
+.Pink, .pink {
+  background-color: rgba(255, 0, 255, 0.4);
+}
+
+.Black, .black {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.White, .white {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.Grey, .grey {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+.Brown, .brown {
+  background-color: rgba(128, 64, 0, 0.4);
+}
+
+td[rowspan].Red,
+td[rowspan].red {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+td[rowspan].Orange,
+td[rowspan].orange {
+  background-color: rgba(255, 128, 0, 0.4);
+}
+
+td[rowspan].Yellow,
+td[rowspan].yellow {
+  background-color: rgba(255, 255, 0, 0.4);
+}
+
+td[rowspan].Green,
+td[rowspan].green {
+  background-color: rgba(0, 255, 0, 0.4);
+}
+
+td[rowspan].Blue,
+td[rowspan].blue {
+  background-color: rgba(0, 255, 255, 0.4);
+}
+
+td[rowspan].Purple,
+td[rowspan].purple {
+  background-color: rgba(128, 0, 255, 0.4);
+}
+
+td[rowspan].Pink,
+td[rowspan].pink {
+  background-color: rgba(255, 0, 255, 0.4);
+}
